@@ -104,7 +104,7 @@ Key data used in the analysis to achieve the project objectives.
 - The NAME column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
 - To keep things simple, I've grouped the Channel Type column into just three categories: Entertainment, Music, and Others. This makes the data much easier to read and gives a better quick look at the big picture.
 
-![Problem_Identified](assets/images/problem.png)
+![Problem_Identified](images/problem.png)
 
 ## Transform the Data
 
@@ -165,7 +165,7 @@ FROM view_AllCountries_youtubers_2026
 
 ```
 ### Output
-![rowcount](assets/images/rowcount.png)
+![rowcount](images/rowcount.png)
 
 ## Column Count Check 
 ### SQL query
@@ -180,7 +180,7 @@ WHERE TABLE_NAME = 'view_AllCountries_youtubers_2026'
 
 ```
 ### Output
-![columncount](assets/images/columncount.png)
+![columncount](images/columncount.png)
 
 ## Data Type Check 
 ### SQL query
@@ -196,7 +196,7 @@ WHERE TABLE_NAME = 'view_AllCountries_youtubers_2026'
 
 ```
 ### Output
-![datatype](assets/images/datatype.png)
+![datatype](images/datatype.png)
 
 ## Duplicate Count Check 
 ### SQL query
@@ -212,11 +212,11 @@ HAVING COUNT(*) > 1
 
 ```
 ### Output
-![duplicate](assets/images/duplicate.png)
+![duplicate](images/duplicate.png)
 
 # Visualization 
 
-![PBI_uk_YouTubers_Dashboard](assets/images/PBI_Top_YB_Worldwide_2026.png)
+![PBI_uk_YouTubers_Dashboard](images/PBI_Top_YB_Worldwide_2026.png)
 
 ## Dax Measures
 
