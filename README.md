@@ -1,4 +1,4 @@
-# YouTube2026-Marketing-Analytics-Project
+# YouTubers2026-ROI-Analysis-Project
 
 # Table of Contents
 
@@ -9,7 +9,6 @@
 - [Steps of Project](#Steps-of-Project)
 - [Design](#Design)
   - [Dashboard Components Required](Dashboard-Components-Required)
-  - [Dashboard mockup](#Dashboard-mockup)
   - [Tools](#Tools)
 - [Developement](#Developement)
   - [Project Workflow](#Project-Workflow)
@@ -58,6 +57,8 @@ Key data used in the analysis to achieve the project objectives.
 - total views
 - total videos uploaded
 
+The data is sourced from Kaggle (an Excel extract), [see here to find it.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
+
 # Steps of Project
 
 - Design
@@ -77,7 +78,6 @@ Key data used in the analysis to achieve the project objectives.
 5. Which 3 channels have the highest views per subscriber ratio?
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
-## Dashboard mockup
 
 ## Tools
 
